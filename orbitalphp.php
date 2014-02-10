@@ -193,7 +193,7 @@ class Client
 	 *                      elements of the given request type.
 	 * @return \OrbitalPHP\Request
 	 */
-	public function FlexCache($values)
+	public function flexCache($values)
 	{
 		return $this->getRequest('FlexCache', $values);
 	}
