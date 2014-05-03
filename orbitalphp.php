@@ -318,7 +318,7 @@ class Client
 
 		for ($i=strlen($cardNumber)-1; $i>=0; $i--) {
 
-			if (!$checkDigit) {
+			if ($checkDigit === null) {
 				$checkDigit = $cardNumber[$i];
 				continue;
 			}
